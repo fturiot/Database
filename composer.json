@@ -1,0 +1,34 @@
+{
+    "name" : "hoa/database",
+    "description": "The Hoa\\Database library.",
+    "type" : "library",
+    "keywords" : ["library", "Database"],
+    "homepage" : "http://hoa-project.net/",
+    "license" : "BSD-3-Clause",
+    "authors" : [
+        {
+            "name" : "Ivan Enderlin",
+            "email": "ivan.enderlin@hoa-project.net"
+        },
+        {
+            "name" : "Hoa community",
+            "homepage": "http://hoa-project.net/"
+        }
+    ],
+    "support": {
+        "email" : "support@lists.hoa-project.net",
+        "irc" : "irc://irc.freenode.org/hoaproject",
+        "source": "http://git.hoa-project.net/"
+    },
+    "require": {
+        "hoa/core" : "dev-master",
+        "hoa/stream": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Hoa/Database",
+    "autoload": {
+        "psr-0": {
+            "Hoa\\Database": "."
+        }
+    }
+}
