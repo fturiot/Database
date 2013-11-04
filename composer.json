@@ -22,7 +22,6 @@
     },
     "require": {
         "hoa/core" : "dev-master",
-        "hoa/stream": "dev-master"
     },
     "minimum-stability": "dev",
     "target-dir": "Hoa/Database",
